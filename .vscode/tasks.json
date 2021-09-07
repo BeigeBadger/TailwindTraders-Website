@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Source/Tailwind.Traders.Web/Tailwind.Traders.Web.csproj",
+                "${workspaceFolder}/Tailwind.Traders.Web/Tailwind.Traders.Web.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Source/Tailwind.Traders.Web/Tailwind.Traders.Web.csproj",
+                "${workspaceFolder}/Tailwind.Traders.Web/Tailwind.Traders.Web.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Source/Tailwind.Traders.Web/Tailwind.Traders.Web.csproj",
+                "${workspaceFolder}/Tailwind.Traders.Web/Tailwind.Traders.Web.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
